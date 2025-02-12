@@ -1,8 +1,10 @@
+import JobSearch from "./JobSearch";
 function LoggedIn(){
     
     return(
         <div>
-            <h1>Logged In</h1>
+            <h1>Search</h1>
+            <JobSearch/>
         </div>
         
     )
