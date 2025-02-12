@@ -1,0 +1,151 @@
+/* LandingPage.css */
+
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Professional font */
+    background-color: #f3f6f8; /* Light gray background */
+    color: #333; /* Dark text for readability */
+  }
+  
+  /* Container for the landing page */
+  .landing-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items */
+    justify-content: center; /* Center align items vertically */
+    height: 100vh; /* Full viewport height */
+    padding: 20px;
+    text-align: center; /* Center text */
+  }
+  
+  /* Info section styling */
+  .info-section {
+    margin-bottom: 40px; /* Space between sections */
+  }
+  
+  .info-section h1 {
+    font-size: 2.5rem; /* Large heading */
+    margin-bottom: 0.5rem; /* Space below heading */
+    color: #0077b5; /* LinkedIn blue */
+  }
+  
+  .info-section p {
+    font-size: 1.2rem; /* Slightly larger font */
+    color: #555; /* Dark gray for secondary text */
+  }
+  
+  /* Login section styling */
+  .login-section {
+    background-color: #ffffff; /* White background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 40px; /* Increased padding */
+    width: 100%; /* Full width */
+    max-width: 400px; /* Max width for larger screens */
+  }
+  
+  /* Input group styling */
+  .input-group {
+    margin-bottom: 20px; /* Space between input fields */
+    text-align: left; /* Align labels to the left */
+  }
+  
+  .input-group label {
+    display: block; /* Block display for labels */
+    font-weight: bold; /* Bold labels */
+    margin-bottom: 5px; /* Space below label */
+    color: #0077b5; /* LinkedIn blue for labels */
+  }
+  
+  .sign-in-input {
+    width: 100%; /* Full width input */
+    padding: 12px; /* Padding inside input */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners for inputs */
+    font-size: 1rem; /* Standard font size */
+    transition: border-color 0.3s ease; /* Smooth transitions */
+  }
+  
+  .sign-in-input:focus {
+    border-color: #0077b5; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  /* Button styles */
+  .login-button, .oauth-button {
+    width: 100%; /* Full width buttons */
+    padding: 12px; /* Padding inside buttons */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1.1rem; /* Larger font size for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+  }
+  
+  .login-button {
+    background-color: #0077b5; /* LinkedIn blue */
+    color: white; /* White text */
+    margin-bottom: 10px; /* Space below login button */
+  }
+  
+  .login-button:hover {
+    background-color: #005582; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+  }
+  
+  .oauth-button {
+    display: flex; /* Flexbox for aligning icon and text */
+    align-items: center; /* Center the icon and text */
+    justify-content: center; /* Center horizontally */
+    background-color: #e7f3ff; /* Light blue background */
+    color: #0077b5; /* LinkedIn blue for text */
+    margin-bottom: 10px; /* Space between buttons */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .oauth-button:hover {
+    background-color: #d0e7ff; /* Lighter background on hover */
+  }
+  
+  .oauth-button .icon {
+    width: 20px; /* Fixed width for icons */
+    height: 20px; /* Fixed height for icons */
+    margin-right: 10px; /* Space between icon and text */
+  }
+  
+  /* Divider text */
+  .divider {
+    margin: 20px 0; /* Space above and below */
+    color: #aaa; /* Light gray for divider */
+  }
+  
+  /* Signup link text */
+  .signup-text {
+    margin-top: 20px; /* Space above */
+  }
+  
+  .signup-link {
+    background: none; /* No background */
+    border: none; /* No border */
+    color: #0077b5; /* LinkedIn blue for link */
+    cursor: pointer; /* Pointer cursor */
+    text-decoration: underline; /* Underline for emphasis */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .info-section h1 {
+      font-size: 2rem; /* Smaller heading on small screens */
+    }
+    
+    .info-section p, .signup-text {
+      font-size: 1rem; /* Smaller text on small screens */
+    }
+  
+    .login-section {
+      width: 90%; /* Take 90% of the screen width on smaller devices */
+    }
+  }
+
+  
