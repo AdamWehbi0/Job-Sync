@@ -62,10 +62,10 @@ const LandingPage = () => {
         <button className="login-button" onClick={handleLogin}>Log In</button>
         <p className="divider">or</p>
         <button className="oauth-button linkedin-button">
-          <img src="/icons/linkedin.png" alt="LinkedIn" className="icon" /> Log in with LinkedIn
+          <img src="/icons/LinkedIn_logo_initials.png" alt="LinkedIn" className="icon" /> Log in with LinkedIn
         </button>
         <button className="oauth-button google-button">
-          <img src="/icons/google.png" alt="Google" className="icon" /> Log in with Google
+          <img src="/icons/Google__G__logo.svg.png" alt="Google" className="icon" /> Log in with Google
         </button>
         <p className="signup-text">Don't have an account? <button className="signup-link" onClick={handleSignUp}>Create an account</button></p>
       </div>

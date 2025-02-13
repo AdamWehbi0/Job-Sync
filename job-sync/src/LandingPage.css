@@ -1,9 +1,9 @@
 /* LandingPage.css */
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 /* Global Styles */
 body {
     margin: 0;
-    font-family: 'Arial', sans-serif; /* Professional font */
+    font-family: 'Poppins', sans-serif; /* Professional font */
     background-color: #f3f6f8; /* Light gray background */
     color: #333; /* Dark text for readability */
   }
@@ -39,7 +39,7 @@ body {
   .login-section {
     background-color: #ffffff; /* White background for contrast */
     border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 4px 20px rgba(231, 229, 229, 0.1); /* Subtle shadow for depth */
     padding: 40px; /* Increased padding */
     width: 100%; /* Full width */
     max-width: 400px; /* Max width for larger screens */
@@ -48,7 +48,9 @@ body {
   /* Input group styling */
   .input-group {
     margin-bottom: 20px; /* Space between input fields */
-    text-align: left; /* Align labels to the left */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .input-group label {
@@ -56,19 +58,22 @@ body {
     font-weight: bold; /* Bold labels */
     margin-bottom: 5px; /* Space below label */
     color: #0077b5; /* LinkedIn blue for labels */
+    width: 100%; /* Full width */
   }
   
   .sign-in-input {
     width: 100%; /* Full width input */
     padding: 12px; /* Padding inside input */
+    background-color: rgb(214, 214, 214);
     border: 1px solid #ddd; /* Light border */
     border-radius: 5px; /* Rounded corners for inputs */
     font-size: 1rem; /* Standard font size */
     transition: border-color 0.3s ease; /* Smooth transitions */
+    color: #333;
   }
   
   .sign-in-input:focus {
-    border-color: #0077b5; /* Change border color on focus */
+    background-color: rgb(214, 214, 214);
     outline: none; /* Remove default outline */
   }
   
